@@ -1,9 +1,10 @@
-import UseRef from "./components/UseRef";
+import { useState, useCallback } from "react";
+import UseCallBack from "./components/UseCallback";
 
 export default function Home() {
   return (
-    <div>
-      <UseRef />
-    </div>
+    <>
+      <UseCallBack />
+    </>
   );
 }
